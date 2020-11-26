@@ -146,14 +146,22 @@
         /* padding: 10px 0; */
         -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
     }
     
     .start-header.scroll-on {
+        -moz-box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
         -webkit-box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
         box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
         padding: 0 0;
         -webkit-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
     }
     
     .start-header.scroll-on .navbar-brand img {
@@ -182,6 +190,9 @@
         position: fixed;
         -webkit-transition: all 300ms ease;
         transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
     }
     
     .navbar {
@@ -680,12 +691,6 @@
         -moz-transition: all 200ms linear;
         -ms-transition: all 200ms linear;
         -o-transition: all 200ms linear;
-    }
-    
-    .dropdown-item:hover,
-    .dropdown-item:focus {
-        color: #cb7401;
-        background-color: transparent!important;
     }
     
     .dark {
@@ -1594,20 +1599,6 @@
         text-decoration: none;
     }
     
-    .border-link::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: #ff951f;
-        -webkit-transition: ;
-        -webkit-transition: width .3s;
-        transition: width .3s;
-        -moz-transition: ;
-        -ms-transition: ;
-        -o-transition: ;
-    }
-    
     .border-link:hover::after {
         width: 100%;
         /* //transition: width .3s; */
@@ -2473,7 +2464,8 @@ button {
             opacity: 1;
             -webkit-transform: translateY(0);
             transform: translateY(0);
-            padding: 10px 0;
+            /* padding: 10px 0; */
+            padding: 0px;
             background: #fff;
             -webkit-box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
             box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
@@ -2554,7 +2546,8 @@ button {
         .start-header.scroll-on {
             -webkit-box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
             box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
-            padding: 10px 0;
+            /* padding: 10px 0; */
+            padding: 0px;
         }
         .nav-link {
             color: #4c5166!important;
@@ -2862,7 +2855,7 @@ button {
     
     .card:hover {
         transform: scale(1.05);
-        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+        /* box-shadow: 10px 10px 15px rgba(0, 0.3, 0, 0.3); */
     }
     
     .card-text {
@@ -2896,4 +2889,9 @@ button {
     .card:focus::before,
     .card:focus::after {
         transform: scale3d(1, 1, 1);
+    }
+    /* image gallery */
+    
+    img.gallery1 {
+        width: 49%;
     }
