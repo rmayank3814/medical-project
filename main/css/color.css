@@ -1,4 +1,15 @@
-/* nav */
+/* header top */
+
+.header-top:hover {
+    color: #ec191e;
+}
+
+.header-top:hover a {
+    color: #ec191e;
+}
+
+
+/* nav  */
 
 .nav-item:hover .nav-link {
     color: #ec191e!important;
@@ -179,4 +190,30 @@
     -moz-transition: width .3s;
     -ms-transition: width .3s;
     -o-transition: width .3s;
+}
+
+.contact-widget p i:hover {
+    color: #ec191e;
+}
+
+
+/* comman page */
+
+.lg-text {
+    color: #ec191e;
+}
+
+.breadcrumb-item.active {
+    color: #ec191e;
+}
+
+
+/* button */
+
+.btn:hover {
+    color: #ec191e;
+    -webkit-transform: translateY(-0.1rem);
+    transform: translateY(-0.1rem);
+    -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 }

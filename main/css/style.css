@@ -1046,72 +1046,6 @@
         margin: 0 auto;
     }
     /*
-    *==============
-    *  Testimonial
-    *==============
-    */
-    
-    .testimonial3 {
-        font-family: 'Open Sans', sans-serif;
-        color: #8d97ad;
-        font-weight: 300;
-    }
-    
-    .testimonial3 .font-weight-medium {
-        font-weight: 500;
-    }
-    
-    .testimonial3 .bg-light {
-        background-color: #f4f8fa !important;
-    }
-    
-    .testimonial3 .subtitle {
-        color: #3e4555;
-        line-height: 24px;
-    }
-    
-    .testimonial3 .testi3 .card-body {
-        padding: 40px;
-    }
-    
-    .testimonial3 .testi3 h6 {
-        line-height: 26px;
-        font-size: 14px;
-        color: #3e4555;
-    }
-    
-    .testimonial3 .testi3 .thumb-img img {
-        width: 60px;
-    }
-    
-    .testimonial3 .testi3 .customer {
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 500;
-        color: #cb7401;
-    }
-    
-    .testimonial3 .card.card-shadow {
-        -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-        box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
-        opacity: .9;
-    }
-    
-    .testimonial3 .font-10 {
-        font-size: 10px;
-    }
-    
-    .testimonial3 .text-muted {
-        color: #8d97ad !important;
-    }
-    
-    .testimonial3 .owl-theme .owl-dots .owl-dot.active span,
-    .testimonial3 .owl-theme .owl-dots .owl-dot:hover span {
-        background: #316ce8;
-    }
-    /*
-
-/*
     *=============
     * What we Do
     *=============
@@ -1409,12 +1343,8 @@
         color: #d9d9d9;
     }
     
-    .contact-widget p i:hover {
-        color: #cb7401;
-    }
-    
     .u-gmap-interactive {
-        height: 15.625rem;
+        height: 27.625rem;
         border: 4px solid #fff!important;
         border-radius: 0.3125rem!important;
         -webkit-border-radius: 0.3125rem;
@@ -1521,7 +1451,7 @@
     
     .close-feedback {
         font-size: 150%;
-        color: #cb7401;
+        color: #ec191e;
     }
     /*
   *
@@ -1603,6 +1533,97 @@
         width: 100%;
         /* //transition: width .3s; */
     }
+    
+    .image-about-banner {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.5))), url(../images/homepage/bannergallery2.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../images/homepage/bannergallery2.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-position: center center;
+        color: #fff;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        margin-top: 0!important;
+    }
+    
+    .image-about-us-banner {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.5))), url(../images/homepage/cosmetic.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../images/homepage/cosmetic.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-position: center center;
+        color: #fff;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        margin-top: 0!important;
+    }
+    
+    .image-cosmetic-banner {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.5))), url(../images/homepage/cosmetic2.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../images/homepage/cosmetic2.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-position: center center;
+        color: #fff;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        margin-top: 0!important;
+    }
+    
+    .image-moles-banner {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.5))), url(../images/homepage/Mole.png);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../images/homepage/Mole.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-position: center center;
+        color: #fff;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        margin-top: 0!important;
+    }
+    
+    .image-skin-hair-banner {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.5))), url(../images/homepage/hair.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../images/homepage/hair.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-position: center center;
+        color: #fff;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        margin-top: 0!important;
+    }
+    
+    .image-contact-banner {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.5))), url(../images/homepage/contact-us.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../images/homepage/contact-us.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-position: center center;
+        color: #fff;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        margin-top: 0!important;
+    }
+    
+    .image-enquiry-banner {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.5))), url(../images/homepage/enquiry-banner.jpg);
+        background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(../images/homepage/enquiry-banner.jpg);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-position: center center;
+        color: #fff;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        margin-top: 0!important;
+    }
     /*=====Career======*/
     /*=====backgrounds====*/
     /*=====braedcrumbs======*/
@@ -1622,7 +1643,6 @@
         font-weight: 600;
         text-transform: none;
         text-align: center;
-        color: #cb7401;
     }
     
     .image-aboutus-para {
@@ -2317,10 +2337,6 @@
     li.breadcrumb-item a {
         color: #4c5166;
     }
-    
-    .breadcrumb-item.active {
-        color: #cb7401;
-    }
     /*
 *=============
 * Buttons
@@ -2446,14 +2462,6 @@ button {
     .btn--white:hover {
         background-color: #1971c2!important;
         color: #fff!important;
-    }
-    
-    .btn:hover {
-        color: #fff;
-        -webkit-transform: translateY(-0.1rem);
-        transform: translateY(-0.1rem);
-        -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
     }
     /* #Media
 ================================================== */
@@ -2595,13 +2603,13 @@ button {
     }
     
     @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-        .testimonial3 .testi3 .card-body {
+        /* .testimonial3 .testi3 .card-body {
             min-height: 0px!important;
-        }
-        .video-background-holder video {
+        } */
+        /* .video-background-holder video {
             width: auto!important;
             height: auto;
-        }
+        } */
     }
     
     @media (min-width: 768px) {
@@ -2641,9 +2649,9 @@ button {
             /* (80px - line-height of 27px) / 2 = 26.5px */
             font-size: 16px!important;
         }
-        .testimonial3 .testi3 .card-body {
+        /* .testimonial3 .testi3 .card-body {
             min-height: 415px!important;
-        }
+        } */
         .composition__photo--p1 {
             position: relative;
             left: 0;
@@ -2884,14 +2892,50 @@ button {
         transform-origin: right bottom;
     }
     
-    .card:hover::before,
-    .card:hover::after,
-    .card:focus::before,
-    .card:focus::after {
+    .image-box:hover::before,
+    .image-box:hover::after,
+    .image-box:focus::before,
+    .image-box:focus::after {
+        transform: scale3d(1, 1, 1);
+    }
+    
+    .pic-box:hover::before,
+    .pic-box:focus::before {
         transform: scale3d(1, 1, 1);
     }
     /* image gallery */
     
     img.gallery1 {
         width: 49%;
+    }
+    /* contact us */
+    
+    .calendar {
+        width: 150px;
+    }
+    
+    .responsive-icon {
+        width: 200px!important;
+    }
+    
+    .responsive-icon2 {
+        width: 140px!important;
+    }
+    
+    .icon-small {
+        width: 167px;
+    }
+    /* about-us page */
+    
+    .img-about {
+        height: 78.03%!important;
+    }
+    
+    .screen-shot-img {
+        height: 150px;
+    }
+    /* image-banner */
+    
+    .title {
+        color: #ec191e!important;
     }
