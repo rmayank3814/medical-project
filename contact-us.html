@@ -44,7 +44,7 @@
 
                             </div>
                             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-4">
-                                <h6 class="header-top">
+                                <h6 class="header-top mail-top">
                                     <i class="fas fa-envelope-open-text"></i>
                                     <a href="#" class="social-linking">&nbsp; drchiits@rediffmail.com</a>
                                 </h6>
@@ -63,7 +63,7 @@
                             </button>
 
                                 <div class="collapse navbar-collapse " id="navbarSupportedContent ">
-                                    <ul class="navbar-nav ml-auto px-3 py-4 py-md-0 ">
+                                    <ul class="navbar-nav ml-auto px-0 py-4 py-md-0 ">
                                         <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                             <a class="nav-link" href="index2.html">Home</a>
                                         </li>
@@ -127,6 +127,7 @@
             </div>
         </div>
         <!-- start -->
+
         <section class="mt-5 ">
 
             <div class="contact ">
@@ -137,7 +138,7 @@
                                 <h3 class="heading-title text-center pb-4 ">Get In Touch With Us</h3>
 
                             </div>
-                            <div class="col-lg-6 mt-5">
+                            <div class="col-lg-6 mt-3">
                                 <div class="card-shadow ">
                                     <img src="main/images/homepage/contact-side.jpg " class="img-fluid img-bg ">
                                 </div>
@@ -145,35 +146,42 @@
                             <div class="col-lg-6 ">
                                 <div class="contact-box ">
                                     <!-- <h5 class="font-weight-light mt-2 ">Fill Form For Your Medical Billing Requirement</h5> -->
-                                    <form class="needs-validation " id="contact-form " role=“form” novalidate=“true” method="POST " action="./php/contact.php ">
+                                    <form id="" action="./php/contact_us.php" method="POST">
                                         <div class="messages "></div>
                                         <div class="row ">
-                                            <div class="col-lg-12 ">
+                                            <div class="col-lg-6">
                                                 <div class="form-group mt-2 ">
-                                                    <label>Name</label>
-                                                    <input class="form-control " type="text " name="name " id="name " placeholder="Name " value=" " required=" ">
+                                                    <label>Name <span class="text-danger font-weight-medium">*</span></label>
+                                                    <input class="form-control " type="text" name="fname" id="name">
                                                     <div class="invalid-feedback ">
                                                         Valid Name is required.
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-lg-12 ">
+                                            <div class="col-lg-6 ">
                                                 <div class="form-group mt-2 ">
-                                                    <label>Email</label>
-                                                    <input class="form-control " value=" " name="email " id="email " type="email " placeholder="Email" required=" ">
+                                                    <label>Phone Number <span class="text-danger font-weight-medium">*</span></label>
+                                                    <input class="form-control " name="phone" id="phone" type="tel">
+                                                    <div class="invalid-feedback ">
+                                                        Please enter a valid phone number.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-group mt-2 ">
+                                                    <label>Email <span class="text-danger font-weight-medium">*</span></label>
+                                                    <input class="form-control " name="email " id="email " type="email ">
                                                     <div class="invalid-feedback ">
                                                         Please enter a valid email address.
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="row ">
-                                            <div class="col-lg-12 ">
+                                            <div class="col-lg-6">
                                                 <div class="form-group mt-2 " for="subject ">
-                                                    <label>Subject</label>
-                                                    <input class="form-control " type="text " name="subject " id="subject " placeholder="Subject " value=" " required=" ">
+                                                    <label>Subject <span class="text-danger font-weight-medium">*</span></label>
+                                                    <input class="form-control " type="text " name="subject " id="subject ">
                                                     <div class="invalid-feedback ">
                                                         Please enter valid subject.
                                                     </div>
@@ -181,13 +189,14 @@
                                             </div>
                                         </div>
                                         <div class="row ">
-                                            <div class="col-lg-12 ">
-                                                <div class="form-group " for="looking_for ">
-                                                    <label>Choose</label>
+
+                                            <div class="col-lg-12">
+                                                <div class="form-group mt-2" for="looking_for ">
+                                                    <label>Choose <span class="text-danger font-weight-medium">*</span></label>
                                                     <select class="form-control " name="looking_for " id="looking_for " required>
-                                                        <option value=" "></option>
-                                                    <option value="what are looking for ">what are you looking for?</option>                                                                     
-                                                    <option value="what are ">what are</option>     
+                                                        <option>---Select---</option>
+                                                        <option value="what are looking for?">what are you looking for?</option>                                                                     
+                                                        <option value="what are ">what are</option>     
                                                 </select>
                                                     <div class="invalid-feedback ">
                                                         Please select a valid entry.
@@ -195,19 +204,18 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="row ">
                                             <div class="col-lg-12 ">
                                                 <div class="form-group mt-2 ">
-                                                    <label>Message</label>
-                                                    <textarea class="form-control " rows="3 " name="summary " id="summary " placeholder=" " values=" " required=" "></textarea>
+                                                    <label>Message <span class="text-danger font-weight-medium">*</span></label>
+                                                    <textarea class="form-control " rows="3 " name="summary " id="summary "></textarea>
                                                     <div class="invalid-feedback ">
                                                         Please enter a message in the textarea.
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <button class="btn btn-blue btn-sm m-auto " id="contact_form_submit " name="contact_submit " type="submit ">Submit</button>
+                                        <button class="btn btn-info" id=" " name="contact_submit " type="submit">Submit</button>
                                 </div>
                                 </form>
                             </div>
@@ -314,6 +322,7 @@
                                     <a href="#" class="icon-button instagram" title="Instagram"><i class="fab fa-instagram" ></i><span></span></a>
                                     <a href="#" class="icon-button linkedin" title="LinkedIn"><i class="fab fa-linkedin-in" ></i><span></span></a>
                                     <a href="#" class="icon-button google-plus" title="Google"><i class="fab fa-google"></i><span></span></a>
+                                    <a href="https://youtu.be/NOXbLu5ltdw" class="icon-button youtube" title="Youtube"><i class="fab fa-youtube"></i><span></span></a>
                                 </div>
                             </div>
                             <!-- Ends: .footer-widget -->
@@ -367,8 +376,7 @@
             <div class="mini-footer ">
                 <div class="container ">
                     <div class="copyright-text wow fadeInDown" data-wow-delay="0.5s " style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-                        <p>© 2020 . All rights reserved.
-                        </p>
+                        <p class="love">Made with <i class="fas fa-heart"></i> .<a href="http://www.kanvan.in/" class="text-footer" target="_blank" title="Kanvan Business Solution"> Designed by Kanvan Business Solution</a></p>
                         <p class="">For emergency cases &nbsp; <i class="fas fa-phone-alt"></i> <a href="#" class="text-footer" target="_blank"> 91 96257 58634</a></p>
                     </div>
                 </div>
@@ -383,6 +391,7 @@
         <script src="vendor/others/js/wow.min.js "></script>
         <script src="vendor/others/js/lazyload.min.js "></script>
         <script src="vendor/others/js/sweetalert.js "></script>
+        <script src="vendor/others/js/contact.js "></script>
         <script>
             new WOW().init();
         </script>

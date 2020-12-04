@@ -196,6 +196,11 @@
     color: #ec191e;
 }
 
+.love i {
+    color: #ec191e;
+    font-size: 12px;
+}
+
 
 /* comman page */
 
@@ -216,4 +221,18 @@
     transform: translateY(-0.1rem);
     -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+
+/* notification button */
+
+.btn-orange {
+    color: #ec191e;
+    border-color: #ec191e;
+}
+
+.btn-orange:hover {
+    background: #ec191e;
+    color: #fff;
+    border-color: #ec191e;
 }

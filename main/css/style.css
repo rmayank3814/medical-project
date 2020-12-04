@@ -1542,7 +1542,7 @@
         background-size: 100% 100%;
         background-position: center center;
         color: #fff;
-        padding-top: 150px;
+        padding-top: 183px;
         padding-bottom: 100px;
         margin-top: 0!important;
     }
@@ -1568,7 +1568,7 @@
         background-size: 100% 100%;
         background-position: center center;
         color: #fff;
-        padding-top: 150px;
+        padding-top: 183px;
         padding-bottom: 100px;
         margin-top: 0!important;
     }
@@ -1581,7 +1581,7 @@
         background-size: 100% 100%;
         background-position: center center;
         color: #fff;
-        padding-top: 150px;
+        padding-top: 183px;
         padding-bottom: 100px;
         margin-top: 0!important;
     }
@@ -1607,7 +1607,7 @@
         background-size: 100% 100%;
         background-position: center center;
         color: #fff;
-        padding-top: 150px;
+        padding-top: 183px;
         padding-bottom: 100px;
         margin-top: 0!important;
     }
@@ -1620,7 +1620,7 @@
         background-size: 100% 100%;
         background-position: center center;
         color: #fff;
-        padding-top: 150px;
+        padding-top: 183px;
         padding-bottom: 100px;
         margin-top: 0!important;
     }
@@ -2286,11 +2286,6 @@
         opacity: 1;
     }
     
-    .love i {
-        color: orangered;
-        font-size: 12px;
-    }
-    
     .copyright-text {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -2394,17 +2389,6 @@ button {
         -moz-transition: all 0.2s ease;
         -ms-transition: all 0.2s ease;
         -o-transition: all 0.2s ease;
-    }
-    
-    .btn-orange {
-        color: #cb7401;
-        border-color: #cb7401;
-    }
-    
-    .btn-orange:hover {
-        background: #cb7401;
-        color: #fff;
-        border-color: #cb7401;
     }
     
     .btn,
@@ -2637,6 +2621,9 @@ button {
         .service {
             min-height: 40vh!important;
         }
+        .mail-top {
+            text-align: right;
+        }
     }
     /* Large devices (laptops/desktops, 992px and up) */
     
@@ -2667,6 +2654,9 @@ button {
     @media (max-width: 767px) {
         .nav-item:after {
             display: none;
+        }
+        .header-top {
+            font-size: 12px;
         }
         .nav-item::before {
             position: absolute;
